@@ -1,5 +1,3 @@
----
-
 ## 🚀 Steps to Run the Application
 
 ### **1️⃣ Prerequisites**
@@ -140,7 +138,3 @@ To stop the Spring Boot application:
 | 6️⃣  | Test via Postman / browser                         |
 | 7️⃣  | Check database in H2 console                       |
 | 8️⃣  | Run tests using `mvn test`                         |
-
----
-
-Would you like me to also add a **visual diagram** (flowchart of “User → Controller → Service → DB”) in the README for explaining to interviewers how each layer interacts? It helps make your project presentation even more professional.
