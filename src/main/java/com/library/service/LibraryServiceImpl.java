@@ -74,23 +74,4 @@ public class LibraryServiceImpl implements LibraryService {
         return "Book returned successfully!";
     }
 
-    /**
-     * Saves a user to the database.
-     *
-     * @param user the user object to be saved
-     * @return the saved user entity with generated ID
-     */
-    public User saveUser(User user) {
-        return userRepo.save(user);
-    }
-
-    /**
-     * Saves a book to the database.
-     *
-     * @param book the book object to be saved
-     * @return the saved book entity with generated ID
-     */
-    public Book saveBook(Book book) {
-        return bookRepo.save(book);
-    }
 }
