@@ -4,8 +4,8 @@ import com.library.exception.AlreadyCheckedOutException;
 import com.library.exception.BookNotFoundException;
 import com.library.exception.InvalidReturnException;
 import com.library.exception.UserNotFoundException;
-import com.library.model.Book;
-import com.library.model.User;
+import com.library.entity.Book;
+import com.library.entity.User;
 import com.library.repository.BookRepository;
 import com.library.repository.UserRepository;
 import org.junit.jupiter.api.BeforeEach;
@@ -16,8 +16,7 @@ import org.mockito.MockitoAnnotations;
 
 import java.util.Optional;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 class LibraryServiceImplTest {

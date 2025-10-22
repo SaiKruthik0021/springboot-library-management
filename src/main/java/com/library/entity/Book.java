@@ -1,10 +1,8 @@
 package com.library.entity;
 
 import jakarta.persistence.*;
-import lombok.Data;
 
 @Entity
-@Data
 @Table(name = "BOOKS")
 public class Book {
 

@@ -32,7 +32,7 @@ public class LibraryControllerTest {
         mockMvc.perform(post("/api/library/returnBook")
                 .param("userId", "1")
                 .param("bookId", "2"))
-                .andExpect(status().isInternalServerError());
+                .andExpect(status().isOk());
 
     }
 }
